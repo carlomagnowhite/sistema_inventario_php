@@ -105,6 +105,8 @@
     }
     $check_usuario = null;
 
+    #verificacion de claves
+
     if ($clave != $clave_confirmar) {
         echo '
                 <div class="notification is-danger is-light">
