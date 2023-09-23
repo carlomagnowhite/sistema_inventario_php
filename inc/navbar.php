@@ -27,9 +27,9 @@
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">Categorías</a>
                 <div class="navbar-dropdown">
-                    <a class="navbar-item">Crear</a>
-                    <a class="navbar-item">Listar</a>
-                    <a class="navbar-item">Buscar</a>
+                    <a class="navbar-item" href="index.php?vista=category_new">Nueva</a>
+                    <a class="navbar-item" href="index.php?vista=category_list">Listar</a>
+                    <a class="navbar-item" href="index.php?vista=category_search">Buscar</a>
                 </div>
             </div>
             <!--dropdown menú de CATEGORÍAS END-->
