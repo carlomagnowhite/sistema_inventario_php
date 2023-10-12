@@ -7,7 +7,7 @@
     <div class="form-rest mb-6 mt-6"></div>
 
     <form action="./php/usuario_guardar.php" method="POST" class="FormAjax" 
-    autocomplete="off">
+    autocomplete="off" id="Form">
         <!--contenedores Nombre y Apellido START-->
         <div class="columns">
             <div class="column">
@@ -40,7 +40,7 @@
             <div class="column">
                 <div class="control">
                     <label>e-Mail</label>
-                    <input type="email" class="input" name="usuario_email" maxlength="70"">
+                    <input type="email" class="input" name="usuario_email" maxlength="70">
                 </div>
             </div>
         </div>

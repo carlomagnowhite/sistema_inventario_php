@@ -1,6 +1,6 @@
 <?php
 require_once("../inc/inicios_sesion.php");
-
+require_once("main.php");
 
 if (isset($_POST["usuario_id"])) {
 

@@ -25,6 +25,8 @@ function enviar_formularios_ajax(e){
         .then(respuesta => {
             let contenedor = document.querySelector(".form-rest");
             contenedor.innerHTML = respuesta;
+            this.reset();
+            this.blur();
         });
 
     }

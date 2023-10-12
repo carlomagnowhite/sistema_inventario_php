@@ -54,6 +54,8 @@
         $nombre = str_ireplace(".","_",$nombre);
         $nombre = str_ireplace(",","_",$nombre);
         $nombre = $nombre."_".rand(0,100);
+        
+        return $nombre;
     }
 
     #funcion para paginar tablas
